@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(50, 11, 133);
+}
+
+header {
+    background-color: #0d46d5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #077ecd;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #20009d;
+}
+
+/* Estilos para los formularios */
+#crearUsuarioForm,
+#eliminarUsuarioForm,
+#jugarForm,
+#adminLoginForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #c01a1a;
+    background-color: #8014be;
+}
+
+#crearUsuarioForm h2,
+#eliminarUsuarioForm h2,
+#jugarForm h2,
+#adminLoginForm h2 {
+    text-align: center;
+}
+
+#crearUsuarioForm label,
+#eliminarUsuarioForm label,
+#jugarForm label,
+#adminLoginForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#crearUsuarioForm input[type="text"],
+#eliminarUsuarioForm input[type="text"],
+#crearUsuarioForm input[type="password"],
+#eliminarUsuarioForm input[type="password"],
+#jugarForm input[type="text"],
+#jugarForm input[type="password"],
+#adminLoginForm input[type="text"],
+#adminLoginForm input[type="password"],
+#crearUsuarioForm input[type="submit"],
+#eliminarUsuarioForm input[type="submit"],
+#jugarForm input[type="submit"],
+#adminLoginForm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para hacer responsive */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para la imagen principal */
+.imgPrincipal {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.imgPrincipal img {
+    max-width: 100%;
+    height: auto;
+}
